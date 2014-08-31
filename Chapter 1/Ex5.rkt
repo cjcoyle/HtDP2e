@@ -6,6 +6,10 @@
 
 (require 2htdp/image)
 
+;; When you solve this exercise on your own computer, you can just copy 
+;; and paste the image of the cat directly into the definitions area
+;; instead of using the function "bitmap/url"
+
 (define cat (bitmap/url "http://www.ccs.neu.edu/home/matthias/HtDP2e/Draft/cat1.png"))
 
 (* (image-height cat)
